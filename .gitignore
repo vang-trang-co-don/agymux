@@ -1,0 +1,23 @@
+# Binaries (root binary only)
+/agymux
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, coverage, and temporary artifacts
+*.test
+*.out
+coverage.html
+*.tmp
+
+# IDE / Editor
+.idea/
+.vscode/
+*.swp
+*~
+
+# OS artifacts
+.DS_Store
+Thumbs.db
