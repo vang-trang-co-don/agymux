@@ -16,13 +16,27 @@
 
 ---
 
-## 🚀 Cài Đặt & Biên Dịch
+## 🚀 Cài Đặt Nhanh
+
+Cài đặt tự động bằng 1 dòng lệnh (hỗ trợ Linux / macOS / Windows WSL):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/vang-trang-co-don/agymux/main/install.sh | bash
+```
+
+Script sẽ tự động:
+1. Tải bản build binary tương ứng với hệ điều hành và CPU (`amd64` / `arm64`).
+2. Hoặc tự động biên dịch từ mã nguồn nếu máy đã có `go`.
+3. Đặt file thực thi vào `~/.local/bin/agymux`.
+
+---
+
+## 🛠️ Biên Dịch Thủ Công Từ Mã Nguồn
 
 ### Yêu cầu
 - **Go** 1.22 trở lên.
 - Đã cài đặt **agy** (Antigravity CLI).
 
-### Biên dịch từ mã nguồn
 ```bash
 git clone https://github.com/vang-trang-co-don/agymux.git
 cd agymux
